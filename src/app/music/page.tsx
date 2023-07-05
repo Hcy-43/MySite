@@ -1,8 +1,4 @@
 import Image from 'next/image'
-import Head from 'next/head';
-import Tilt from "react-parallax-tilt";
-import Link from 'next/link';
-// bg-[url('/img/hero-pattern.svg')]
 export default function Home() {
     return (
         <div>
