@@ -1,19 +1,21 @@
 import Image from 'next/image'
-import Head from 'next/head';
 import styles from './Home.module.css';
-import Tilt from "react-parallax-tilt";
 import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <div className={styles.titleContainer}>
-        <div className={styles.title}>
-          Welcome to Michael's website.
+
+    <div className="min-h-screen flex flex-col justify-center items-center bg-no-repeat bg-fixed
+    bg-center bg-cover bg-[url('./../../public/DSC05844.jpg')]">
+      <div className="flex flex-col justify-center items-center bg-no-repeat bg-fixed
+    bg-center bg-cover w-full min-h-screen backdrop-blur-md ">
+        <div className="m-px text-8xl text-center font-bold font-serif">
+          Michael's website.
         </div>
+
       </div>
-      <div className={styles.whatContainer}>
-        <div className={styles.whatTitleContainer}>
+      <div className="flex flex-col justify-start items-center w-full min-h-screen h-px">
+        <div className="flex flex-row justify-start items-start w-full h-40">
           <h1 className="font-serif text-8xl p-3 italic">Hobbies</h1>
         </div>
         <div className="flex flex-row min-w-full h-full justify-center">
