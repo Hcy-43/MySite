@@ -6,7 +6,7 @@ export default function Home() {
   return (
 
     <div className="min-h-screen flex flex-col justify-center items-center bg-no-repeat bg-fixed
-    bg-center bg-cover bg-[url('./../../public/DSC05844.jpg')]">
+    bg-center bg-cover bg-[url('/DSC05844.jpg')]">
       <div className="flex flex-col justify-center items-center bg-no-repeat bg-fixed
     bg-center bg-cover w-full min-h-screen backdrop-blur-md ">
         <div className="m-px text-8xl text-center font-bold font-serif">
@@ -22,7 +22,7 @@ export default function Home() {
           <Link href="/photography" className="transition ease-in-out delay-0 hover:-translate-y-5 hover:scale-105 duration-300 flex flex-col justify-start mx-12 my-12 basis-1/4 rounded-2xl relative overflow-hidden">
             <div className='grow relative overflow-hidden'>
               <Image
-                src="/../public/IMG_6033.JPG"
+                src="/IMG_6033.JPG"
                 fill
                 style={{ objectFit: 'cover', }}
                 alt="Picture of the author"
@@ -34,7 +34,7 @@ export default function Home() {
           <Link href="/translate" className="transition ease-in-out delay-0 hover:-translate-y-5 hover:scale-105 duration-300 flex flex-col justify-start mx-12 my-12 basis-1/4 rounded-2xl relative overflow-hidden">
             <div className='grow relative overflow-hidden'>
               <Image
-                src="/../public/IMG_1777.JPG"
+                src="/IMG_1777.JPG"
                 fill
                 style={{ objectFit: 'cover', }}
                 alt="Picture of the author"
@@ -46,7 +46,7 @@ export default function Home() {
           <Link href="/music" className="transition ease-in-out delay-0 hover:-translate-y-5 hover:scale-105 duration-300 flex flex-col justify-start mx-12 my-12 basis-1/4 rounded-2xl relative overflow-hidden">
             <div className='grow relative overflow-hidden'>
               <Image
-                src="/../public/2.jpg"
+                src="/2.jpg"
                 fill
                 style={{ objectFit: 'cover', }}
                 alt="Picture of the author"
