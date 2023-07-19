@@ -22,7 +22,7 @@ export default function Home() {
           <Link href="/photography" className="transition ease-in-out delay-0 hover:-translate-y-5 hover:scale-105 duration-300 flex flex-col justify-start mx-12 my-12 basis-1/4 rounded-2xl relative overflow-hidden">
             <div className='grow relative overflow-hidden'>
               <Image
-                src="/IMG_6033.JPG"
+                src="/photos/IMG_6033.JPG"
                 fill
                 style={{ objectFit: 'cover', }}
                 alt="Picture of the author"
